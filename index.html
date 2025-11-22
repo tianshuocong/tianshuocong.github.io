@@ -116,7 +116,22 @@
       color: #6c757d;
       font-style: normal;
     }
-    
+
+
+    .paper-item {
+      display: flex;
+      margin-bottom: 20px;
+    }
+        
+    .conference {
+      width: 150px;
+      font-weight: bold;
+    }
+        
+    .paper-details {
+      flex: 1;
+    }
+                    
     @media (max-width: 768px) {
       .header-container {
         flex-direction: column;
@@ -135,6 +150,14 @@
       .custom-container {
         padding: 1.5rem;
       }
+      
+      .paper-item {
+                flex-direction: column;
+            }
+            
+      .conference {
+                margin-bottom: 5px;
+            }
     }
   </style>
 </head>
